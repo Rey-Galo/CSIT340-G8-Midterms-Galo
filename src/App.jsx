@@ -1,6 +1,7 @@
 import Sidebar from "./components/sidebar";
 import Docs from "./components/Docs";
 import Guide from "./components/Guide";
+import Feedback from "./components/Feedback";
 
 function App() {
  
@@ -9,6 +10,7 @@ function App() {
       <Sidebar />
       <Docs />
       <Guide />
+      <Feedback />
     </div>
   );
 }
